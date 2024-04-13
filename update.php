@@ -9,5 +9,5 @@ set username = '$userName', password = '$Password',fname= '$fname'
 WHERE userid = '$id'";
 mysqli_query($link, $query1);
 mysqli_close($link);
-echo "<script>window.location.replace('index.php')</script>";
+echo "<script>window.location.replace('index.html')</script>";
 ?>

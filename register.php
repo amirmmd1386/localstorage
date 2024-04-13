@@ -46,7 +46,7 @@
         <?php
         echo "<a href='delete.php?id=$row[userid]' class='btn btn-primary'>delete</a>";
         ?>
-        <a href="index.php" class="btn btn-primary">login</a>
+        <a href="index.html" class="btn btn-primary">login</a>
         <a href="table.php" class="btn btn-primary">show all data</a>
     </form>
     </div>

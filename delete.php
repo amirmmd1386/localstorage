@@ -3,5 +3,5 @@
  $id = $_GET['id'];
  $query1 = "dELETE FROM users WHERE userid =$id";
  $resualt = mysqli_query($link, $query1);
- echo "<script>window.location.replace('index.php')</script>";
+ echo "<script>window.location.replace('index.html')</script>";
 ?>

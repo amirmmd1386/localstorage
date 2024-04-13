@@ -36,7 +36,7 @@
         ?>
         </tbody>
     </table>
-    <a href="index.php" class="btn btn-secondary m-3">back</a>
+    <a href="index.html" class="btn btn-secondary m-3">back</a>
 </body>
 
 </html>

@@ -38,7 +38,7 @@
         $fname = $_GET['fname'];
         $query = "insert into users (fname,username,password) VALUES ('$fname','$userName','$Password')";
         mysqli_query($link, $query);
-        echo "<script>window.location.replace('index.php')</script>";
+        echo "<script>window.location.replace('index.html')</script>";
     }
     ?>
 </body>
